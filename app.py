@@ -18,18 +18,22 @@ from qa_model import *
 load_dotenv()
 
 # Define credentials 
-api_key = os.getenv("API_KEY", None)
-ibm_cloud_url = os.getenv("IBM_CLOUD_URL", None)
-project_id = os.getenv("PROJECT_ID", None)
+# api_key = os.getenv("API_KEY", None)
+# ibm_cloud_url = os.getenv("IBM_CLOUD_URL", None)
+# project_id = os.getenv("PROJECT_ID", None)
+
+api_key = "Mhzsj6t8h8ASVevnMp2eoyvqDmoFqyCUFJNyGiKbXt9-"
+ibm_cloud_url = "https://us-south.ml.cloud.ibm.com"
+project_id = "8228f242-6a2e-4ef3-ad98-157d4f7e831a"
 
 
-if api_key is None or ibm_cloud_url is None or project_id is None:
-    print("Ensure you copied the .env file that you created earlier into the same directory as this notebook")
-else:
-    creds = {
-        "url": ibm_cloud_url,
-        "apikey": api_key 
-    }
+#if api_key is None or ibm_cloud_url is None or project_id is None:
+#     print("Ensure you copied the .env file that you created earlier into the same directory as this notebook")
+# else:
+creds = {
+    "url": ibm_cloud_url,
+    "apikey": api_key 
+}
 
 # Define generation parameters 
 params = {
