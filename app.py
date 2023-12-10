@@ -22,9 +22,9 @@ load_dotenv()
 # ibm_cloud_url = os.getenv("IBM_CLOUD_URL", None)
 # project_id = os.getenv("PROJECT_ID", None)
 
-api_key = "Mhzsj6t8h8ASVevnMp2eoyvqDmoFqyCUFJNyGiKbXt9-"
+api_key = "7JDXm2roHKdgxDtS1bCjmKbbY9jM-dAr8RpEB0HMvWbx"
 ibm_cloud_url = "https://us-south.ml.cloud.ibm.com"
-project_id = "8228f242-6a2e-4ef3-ad98-157d4f7e831a"
+project_id = "a9b59392-efda-46a0-a6b5-0d6af0f60e20"
 
 
 #if api_key is None or ibm_cloud_url is None or project_id is None:
